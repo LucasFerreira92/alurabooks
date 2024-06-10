@@ -28,8 +28,36 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 50vw;
 }
 
 .container__botao:checked~.lista-menu {
     display: block;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: var(--azul-letras);  
+    font-family: var(--fonte-padrao);
+    text-transform: uppercase;
+}
+
+.lista-menu__menu a {
+   text-decoration: none !important;
+   color: var(--azul-degrade) !important;
+   background-clip: text;
+}
+
+.container__botao {
+    display: none;
 }
