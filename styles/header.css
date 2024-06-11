@@ -61,3 +61,7 @@
 .container__botao {
     display: none;
 }
+
+.cabeçalho li:hover {
+    background-color: rgba(245, 245, 245, 0.76);
+}
