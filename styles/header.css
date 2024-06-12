@@ -29,7 +29,6 @@
     position: absolute;
     top: 100%;
     width: 50vw;
-    z-index: 5; /* Definindo um z-index menor que o hover do banner */
 }
 
 .container__botao:checked~.lista-menu {
@@ -54,8 +53,8 @@
 }
 
 .lista-menu__menu a {
-   text-decoration: none !important;
-   color: var(--azul-degrade) !important;
+   text-decoration: none;
+   color: var(--azul-degrade);
    background-clip: text;
 }
 
