@@ -26,6 +26,7 @@
 .card__descrição {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 
 .card__botões {
@@ -54,8 +55,28 @@
     color: var(--azul-letras);
     font-weight: 700;
     font-size: 18px;
+    padding: 0.5em 0;
 }
 
 .descrição__texto {
-    margin: 1em;
+    font-size: 14px;
+}
+
+.botões__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.botões__ancora:hover {
+    background-color: rgba(94, 94, 12, 0.671);
+}
+
+
+element.style {
+    transition-duration: 30ms;
+    transform: translate3d(-700px, 0px, 0px);
+    transition-delay: 0ms;
 }
