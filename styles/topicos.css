@@ -7,7 +7,7 @@
 .tópicos {
     background: var(--azul-letras);
     text-align: center;
-    padding: 1em 0;
+    padding: 1em 0 0 0;
 }
 
 .tópicos__titulo {
