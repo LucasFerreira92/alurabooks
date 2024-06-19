@@ -22,3 +22,8 @@
     border-radius: 24px;
     width: 90%;
 }
+
+.contato__email:hover {
+    background-color: #9cbdd67c;
+    border-radius: 24px;
+}
