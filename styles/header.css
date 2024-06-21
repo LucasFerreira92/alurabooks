@@ -56,7 +56,7 @@
    text-decoration: none;
    color: var(--azul-degrade);
    background-clip: text;
-}
+}   
 
 .container__botao {
     display: none;
@@ -65,3 +65,5 @@
 .cabeçalho li:hover {
     background-color: rgba(245, 245, 245, 0.76);
 }
+
+@media screen and (min-width: 1024px) {}
