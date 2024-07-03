@@ -28,8 +28,8 @@ hr {
     }
 
     .lista-rodapé__titulo {
-        color: var(--cinza-letras);
         font-size: 14px;
+        color: var(--cinza-letras);
     }
 
     .rodapé__titulo {
