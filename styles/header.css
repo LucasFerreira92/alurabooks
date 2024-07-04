@@ -123,3 +123,9 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+    }
+}
