@@ -9,10 +9,18 @@ hr {
     font-weight: 400;
 }
 
+.lista-rodapé {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .rodapé {
         display: flex;
         justify-content: space-around;
+    }
+
+    .lista-rodapé {
+        display: block;
     }
 
     .lista-rodapé__item {
